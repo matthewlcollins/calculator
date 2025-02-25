@@ -29,6 +29,8 @@ body {
     width: 90%;
     margin: 20px 5%;
     border-radius: 5px;
+    padding: 10px;
+    font-size: 60px;
 }
 
 .butCont {
@@ -50,6 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
 }
 
 .zeroBut {
@@ -59,15 +62,19 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    display: flex;
+    font-size: 30px;
 }
 
 .clearBut {
     height: 70px;
     flex: 0 0 calc(51% - 8px);
     background-color: orange;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    font-size: 30px;
 }
 
 .numBut {
@@ -86,4 +93,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
 }
