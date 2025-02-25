@@ -45,7 +45,8 @@ body {
 }
 
 .numBut,
-.calcBut {
+.calcBut,
+.equals {
     height: 70px;
     flex: 0 0 calc(25% - 6px);
     border-radius: 5px;
@@ -81,7 +82,8 @@ body {
     background-color: greenyellow;
 }
 
-.calcBut {
+.calcBut, 
+.equals {
     background-color: orange;
 }
 
